@@ -48,52 +48,59 @@ Thumbs.db
 *.mov
 *.wmv
 
-# Byte-compiled / optimized / DLL files
+# ---- Python artifacts ----
 __pycache__/
+*.pyc
 *.py[cod]
 *.so
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# ---- Jupyter Notebook checkpoints ----
+.ipynb_checkpoints/
 
-# Data files (Never push your data!)
+# ---- Data files and folders (do not push!) ----
+data/
 *.csv
 *.parquet
 *.xlsx
 *.h5
 *.pkl
 *.joblib
+*.sqlite3
 
-# S3, AWS keys, config, tokens
+# ---- AWS, secrets, and keys ----
 .aws/
 *.pem
 *.key
 .env
+*.env
 
-# Docker artefacts
+# ---- SageMaker local config ----
+.sagemaker/
+
+# ---- Docker artifacts ----
 *.tar
 *.tar.gz
 
-# VSCode/IDE config
+# ---- IDE/editor config ----
 .vscode/
 .idea/
 .DS_Store
 
-# Logs
+# ---- Logs ----
 *.log
+logs/
 
-# Python virtual environments
+# ---- Python virtual environments & build ----
 .env/
 .venv/
 env/
 venv/
-pip-wheel-metadata/
 build/
 dist/
+pip-wheel-metadata/
 
-# Outputs
-/output/
+# ---- Outputs & temporary files ----
+output/
 outputs/
 tmp/
 temp/
-
