@@ -1,0 +1,16 @@
+pandas
+numpy
+scipy
+pyarrow
+s3fs
+python-dateutil
+joblib
+scikit-learn
+xgboost==1.7.6
+shap
+boto3
+botocore
+sagemaker
+pytest  
+mlflow
+dvc
