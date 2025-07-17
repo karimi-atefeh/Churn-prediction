@@ -48,3 +48,52 @@ Thumbs.db
 *.mov
 *.wmv
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files (Never push your data!)
+*.csv
+*.parquet
+*.xlsx
+*.h5
+*.pkl
+*.joblib
+
+# S3, AWS keys, config, tokens
+.aws/
+*.pem
+*.key
+.env
+
+# Docker artefacts
+*.tar
+*.tar.gz
+
+# VSCode/IDE config
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Python virtual environments
+.env/
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+build/
+dist/
+
+# Outputs
+/output/
+outputs/
+tmp/
+temp/
+
